@@ -14,22 +14,22 @@
 		<div class="col-md-8">
 			
 			<dl><dt><p>Kelly</p></dt>
-			<dt>What's the best thing about working with Kelly?</dt>
-			<dd>She has an incredible attention to detail, which, helps her team members improve their own quality of work. Her sense of humor is also very welcome in the team.</dd>
-			<dt>What does Kelly do well?</dt>
-			<dd>Kelly is really good at doing the task at hand well, and to a considerable standard</dd>
-			<dt>Where could Kelly improve?</dt>
-			<dd></dd>
-			</dl>
-			
-			<dl><dt><p>Nawaal</p></dt>
-			<dt>What's the best thing about working with Nawaal?</dt>
-			<dd></dd>
-			<dt>What does Nawaal do well?</dt>
-			<dd></dd>
-			<dt>Where could Nawaal improve?</dt>
-			<dd></dd>
-			</dl>
+<dt>What's the best thing about working with Kelly?</dt>
+<dd>She has an incredible attention to detail, which, helps her team members raise the quality of their own work.</dd>
+<dt>What does Kelly do well?</dt>
+<dd>Her sense of humor brightens very ones day.</dd>
+<dt>Where could Kelly improve?</dt>
+<dd></dd>
+</dl>
+<p></p>
+<dl><dt><p>Nawaal</p></dt>
+<dt>What's the best thing about working with Nawaal?</dt>
+<dd>The knowledge that she has about the business and about the business data is reassuring.</dd>
+<dt>What does Nawaal do well?</dt>
+<dd>She's always ready to share that knowledge and help when there's a need</dd>
+<dt>Where could Nawaal improve?</dt>
+<dd></dd>
+</dl>
 			
 		</div>
 		<div class="col-md-2"></div>
