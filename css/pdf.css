@@ -82,3 +82,7 @@ Author: Sam Hearn
 .total {
     text-align: right;
 }
+
+table {
+    border: 1px solid #000;
+}
