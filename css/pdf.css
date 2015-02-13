@@ -1,0 +1,84 @@
+/*==================================
+
+Custom style for paprs. app
+Author: Sam Hearn
+
+==================================*/
+
+/*--- Paper styling ---*/
+.heading h1,h2,h3 {
+    line-height: 1.5em;
+    text-align: right;
+}
+.heading h1{
+    font-size: 2em;
+    font-weight: normal;
+}
+.heading h2{
+    font-size: 1.05em;
+    font-weight: normal;
+    color: #555;
+}
+.heading h3{
+    font-size: 1.05em;
+    font-weight: normal;
+}
+.heading {
+    margin-bottom: 35px;
+}
+.col_10, .col_1 {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col_1 {
+    width: 4%;
+}
+.col_10 {
+    width: 78%;
+}
+.question:before,
+.question:after,
+.line_row:after {
+  display: table;
+  content: " ";
+}
+.question:after,
+.lines:after {
+    clear: both;
+}
+
+/*--- Questions ---*/
+/* 
+    .question
+     └── .col_1 | .col_10 | .col_1
+                     └── .lines_row - .line
+*/
+.question {
+    margin-bottom: 25px;
+}
+.question ol {
+    padding: 0 0 0 35px;
+    margin: 5px 0 0 0;
+    list-style-type: lower-latin;
+}
+.question ol li{
+    line-height: 1.1em;
+}
+.question .text {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*--- Lines ---*/
+.lines .row {
+    border-bottom: 1px dotted black;
+    height: 2em;
+}
+
+/*--- Total ---*/
+.total {
+    text-align: right;
+}

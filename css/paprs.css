@@ -1,0 +1,81 @@
+/*==================================
+
+Custom style for paprs. app
+Author: Sam Hearn
+
+==================================*/
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Caecilia_light';
+    src: url('fonts/caecilia-light-webfont.eot');
+    src: url('fonts/caecilia-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/caecilia-light-webfont.woff2') format('woff2'),
+         url('fonts/caecilia-light-webfont.woff') format('woff'),
+         url('fonts/caecilia-light-webfont.ttf') format('truetype'),
+         url('fonts/caecilia-light-webfont.svg#pmn_caecilia_45_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Heading */
+
+.container h1, h2, h3 {
+    font-family: 'Caecilia_light';
+}
+.container h1 {
+    font-size: 5em;
+}
+.container h2{
+    font-size: 3em;
+}
+.container h3{
+    font-size: 2.5em;
+}
+.container .lead{
+    /*font-family: 'Caecilia_light';*/
+}
+.container:first-child{
+    margin-bottom: 25px;
+}
+
+/* Question Buttons */
+
+.paprs-remove-button {
+    float:right;
+    font-weight:bolder;
+    font-size:1em;
+    padding:0px 2px;
+}
+
+.paprs-add-button {
+    float:right;
+    font-weight:bolder;
+    font-size:1em;
+    padding:0px 2px;
+    cursor:pointer;
+}
+
+.selected {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.paprsTotalField{
+    border: none;
+    padding: 0;
+    width: 50px;
+    font-family: 'Caecilia_light';
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.footer p{
+    text-align: right;
+    font-size: 0.85em;
+    color: #AAA;
+}
