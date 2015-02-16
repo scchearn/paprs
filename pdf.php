@@ -12,7 +12,7 @@
 	
 	//CSS Styles
 	$text .= "<link rel='stylesheet' href='css/pdf.css' type='text/css' />";
-// 	$text .= "<link rel='stylesheet' href='css/reset.css' type='text/css' />";
+ 	$text .= "<link rel='stylesheet' href='css/reset.css' type='text/css' />";
 	
 	//Paper details
 	$text .= "<div class='heading'>";
