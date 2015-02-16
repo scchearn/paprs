@@ -12,7 +12,7 @@
 	
 	//CSS Styles
 	$text .= "<link rel='stylesheet' href='css/pdf.css' type='text/css' />";
-	$text .= "<link rel='stylesheet' href='css/reset.css' type='text/css' />";
+// 	$text .= "<link rel='stylesheet' href='css/reset.css' type='text/css' />";
 	
 	//Paper details
 	$text .= "<div class='heading'>";
@@ -32,7 +32,7 @@
 			//Define variables
 			$parsedown = new Parsedown();
 			$line_amount = $question['lines'];
-			$question_text = $question['text'];
+			$question_text = mb_convert_encoding($question['text'],'UTF-8');
 			$question_points = $question['points'];
 			
 			//Construct question
