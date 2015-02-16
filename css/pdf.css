@@ -71,8 +71,9 @@ Author: Sam Hearn
     margin-right: auto;
     margin-left: auto;
 }
-.text p:first-child{
+.text p{
     margin-top: 0px;
+    margin-bottom: 1em;
 }
 
 /*--- Lines ---*/
