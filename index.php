@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,6 +101,8 @@
 <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
+
+<?php $_SESSION['post_data'] = $_POST; ?>
 
 </body>
 </html>

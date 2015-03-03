@@ -6,6 +6,15 @@ Author: Sam Hearn
 ==================================*/
 
 /*--- Paper styling ---*/
+table {
+    margin: 0 auto;
+}
+table,td,th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 7px;
+}
 .heading h1,h2,h3 {
     line-height: 1.5em;
     text-align: right;
@@ -87,6 +96,3 @@ Author: Sam Hearn
     text-align: right;
 }
 
-table {
-    border: 1px solid #000;
-}

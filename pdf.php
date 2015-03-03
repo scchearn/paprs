@@ -1,4 +1,7 @@
 <?php
+    
+    session_start();
+    
     //Includes
     require("includes/mpdf60/mpdf.php");
     require("includes/parsedown.php");
@@ -12,8 +15,7 @@
 	
 	//CSS Styles
 	$text .= "<link rel='stylesheet' href='css/pdf.css' type='text/css' />";
-// 	$text .= "<link rel='stylesheet' href='css/reset.css' type='text/css' />";
-	
+
 	//Paper details
 	$text .= "<div class='heading'>";
 	$text .= "<h1>" . $_POST['paprs_Title'] . "</h1>";
