@@ -22,6 +22,7 @@ Author: Sam Hearn
 /* Help */
 
 #helpButton {
+	position: fixed;
 	top: 1em;
 	right: 1em;
 	font-size: 1.5em;
