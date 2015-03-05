@@ -10,6 +10,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <div id="helpSection">
+    	<span id="helpSectionClose" class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
+    	<?php include("includes/help.php"); ?>
+    </div>
+    
+    <span id="helpButton" class="glyphicon glyphicon-info-sign pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Click here for help"></span>
     
 <div class="container">
 	<div class="">
@@ -81,10 +87,16 @@
 		
 		</div>
 	<!-- End of section -->
-	<input type="text" name="paprsTotalField" id="paprsTotalField" class="paprsTotalField pull-right" readonly>
-	<label class="paprsTotalField pull-right">Total: </label>
-	<button type="button" class="btn btn-primary add">Add</button>
-	<button type="submit" class="btn btn-primary">Submit!</button>
+	<div class="paprsSectionEnd clearfix">
+		<span class="glyphicon glyphicon-plus paprs-add-question" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Add question"></span>
+		<div class="paprsTotalSection pull-right">
+			<label class="paprsTotalField">Total: </label>
+			<input type="text" name="paprsTotalField" id="paprsTotalField" class="paprsTotalField" readonly>
+		</div>
+	</div>
+	
+	<button type="submit" class="btn btn-primary paprs-submit">Submit!</button>
+	
 	</form>
 	
 	<div class="footer"><hr/><p>copyright Sam Hearn</p></div>

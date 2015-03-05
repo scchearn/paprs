@@ -19,28 +19,53 @@ Author: Sam Hearn
     font-style: normal;
 }
 
+/* Help */
+
+#helpButton {
+	top: 1em;
+	right: 1em;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+#helpSection {
+    position: fixed;
+    overflow: scroll;
+    width: 350px;
+    height: 100%;
+    right: -350px;
+    background: #333;
+    color: #FDFDFD;
+    padding: 20px;
+    z-index: 99;
+}
+#helpSectionClose {cursor: pointer;}
+#helpSection::-webkit-scrollbar { width: 0px;}
+#helpSection::-webkit-scrollbar:horizontal { width: 0px;}
+
 /* Heading */
 
-.container h1, h2, h3 {
-    font-family: 'Caecilia_light';
-}
-.container h1 {
-    font-size: 5em;
-}
-.container h2{
-    font-size: 3em;
-}
-.container h3{
-    font-size: 2.5em;
-}
-.container .lead{
-    /*font-family: 'Caecilia_light';*/
-}
-.container:first-child{
-    margin-bottom: 25px;
+.container h1, h2, h3 {font-family: 'Caecilia_light';}
+.container h1 {font-size: 5em;}
+.container h2 {font-size: 3em;}
+.container h3 {font-size: 2.5em;}
+.container .lead {/*font-family: 'Caecilia_light';*/}
+.container:first-child {margin-bottom: 25px;}
+
+/* Buttons */
+
+.paprs-add-question{
+	font-size: 1.5em;
+	margin-left: 0.4em;
+	cursor: pointer;
 }
 
-/* Question Buttons */
+.paprs-submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
 
 .paprs-remove-button {
     float:right;
@@ -74,6 +99,11 @@ Author: Sam Hearn
     font-size: 1.5em;
     font-weight: normal;
 }
+
+.paprsSectionEnd {
+    margin-bottom: 15px;
+}
+
 .footer p{
     text-align: right;
     font-size: 0.85em;

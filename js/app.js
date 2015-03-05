@@ -3,7 +3,7 @@ $(document).ready(function() {
     //Options for adding questions
     var max_fields = 999; //maximum input boxes allowed
     var wrapper = $(".question-section"); //Fields wrapper
-    var add_button = $(".add"); //Add button ID
+    var add_button = $(".paprs-add-question"); //Add button ID
     var x = 0; //initlal text box count
     
     //Options for updating total
@@ -70,5 +70,21 @@ $(document).ready(function() {
             //console.log( "clicked on a question" );
         }
     },'.question');
+    
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    
+    $('#helpButton').click(function() {
+        $('#helpSection').animate({
+          right: "0px"
+        }, 200);
+    });
+    
+    $('#helpSectionClose').click(function() {
+        $('#helpSection').animate({
+            right: "-350px"
+        }, 200);
+    });
     
 });
