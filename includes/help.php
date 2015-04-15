@@ -1,6 +1,6 @@
 <h3>How to style your questions</h3>
 <p>
-paprs. uses markdown to help you format your questions
+paprs. uses markdown to help you format your questions. Below are some examples of how you can use it.
 
 <h4>Headers</h4>
 <p>Use these headers with caution. They can affect the layout of your paper drastically.</p>

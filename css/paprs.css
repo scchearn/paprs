@@ -19,7 +19,7 @@ Author: Sam Hearn
     font-style: normal;
 }
 
-/* Help */
+/* Help Section*/
 
 #helpButton {
 	position: fixed;
@@ -27,6 +27,7 @@ Author: Sam Hearn
 	right: 1em;
 	font-size: 1.5em;
 	cursor: pointer;
+	z-index: 90;
 }
 
 #helpSection {

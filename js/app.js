@@ -71,10 +71,13 @@ $(document).ready(function() {
         }
     },'.question');
     
+    //Call tooltip function on all tooltips
     $(function () {
         $('[data-toggle="tooltip"]').tooltip();
     });
     
+    
+    //Help section animation
     $('#helpButton').click(function() {
         $('#helpSection').animate({
           right: "0px"
