@@ -8,4 +8,4 @@ Handy little app to make writing question and exam papers easier.
 - [ ] Question validation
 - [ ] Error checking
 - [X] PDF table formating 
-- [ ] Reduce size of app
+- [X] Reduce size of app

@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
     <div id="helpSection">
     	<span id="helpSectionClose" class="glyphicon glyphicon-remove pull-right" aria-hidden="true"></span>
     	<?php include("includes/help.php"); ?>

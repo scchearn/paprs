@@ -25,6 +25,7 @@ $(document).ready(function() {
             //var $formpoints = $(this).find('.form-points');
             //$sum.push($formpoints);
         }
+        //Scroll to bottom of page
         $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     });
     
