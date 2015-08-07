@@ -20,12 +20,14 @@
 	$text .= "<div class='heading'>";
 	$text .= "<h1>" . $_POST['paprs_Title'] . "</h1>";
     	if (!empty($_POST['paprs_Author'])){
-    	    $text .= "<h2>Prepared by: " . $_POST['paprs_Author'] . "</h2>";
+    	    $text .= "<h2><span class='accent'>Prepared by:</span> " . $_POST['paprs_Author'] . "</h2>";
     	}
     	if (!empty($_POST['paprs_Time'])){
-    	    $text .= "<h3>Allowed time: " . $_POST['paprs_Time'] . "</h3>";
+    	    $text .= "<h3><span class='accent'>Allowed time:</span> " . $_POST['paprs_Time'] . "</h3>";
     	}
 	$text .= "</div>";
+	
+	$text .= "<hr/>";
 	
 	//Questions
 	$text .= "<div class='body'>";

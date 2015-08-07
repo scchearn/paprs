@@ -22,7 +22,7 @@
 	<div class="">
 		<div class="col-md-2"></div>
 		<div class="col-md-8"><h1>paprs.</h1>
-			<p class="lead">Handy little app to make writing question and exam papers easier</p>
+			<p class="lead">Handy little app for teachers to make writing question and exam papers easier</p>
 		</div>
 		<div class="col-md-2"></div>
 	</div>
